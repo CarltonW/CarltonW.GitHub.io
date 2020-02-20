@@ -1,20 +1,15 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: Houston Astros
-  date: August 2019 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  job: Front-End Developer
+- name: Disability Rights Texas
+  date: December 2012  - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: IT Manager
 
-- name: NASA
-  link: http://www.nasa.gov/
-  date: December 2018 - August 2019
-  job: Software Engineer I
+- name: Advocacy, Inc. / Disability Rights Texas
+  link: http://www.drtx.org
+  date: April 1998 - December 2012
+  job: Network Administrator
 
-- name: Athena Engineering Services
-  link: http://www.athenaeng.com/
-  date: May 2017 - December 2018
-  job: Web Assistant
+- name: Hart Graphics
+  date: 1995 - 1998
+  job: Network Administrator
 
-- name: Sam Houston State University
-  link: https://www.shsu.edu/
-  date: May 2015 - May 2017
-  job: Web Developer
