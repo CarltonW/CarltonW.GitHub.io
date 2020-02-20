@@ -3,7 +3,7 @@ layout: post
 title:  "How to Setup Docker on WSL"
 excerpt: "This tutorial will show you how to get Docker up and running on Windows 10 WSL"
 comments : true
-date:   2019-10-01 20:39:39 -0600
+date:   2020-02-18 20:39:39 -0600
 categories: [WSL, Docker]
 ---
 
