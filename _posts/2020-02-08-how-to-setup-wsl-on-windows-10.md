@@ -11,7 +11,7 @@ WSL or (Windows Subsystem for Linux), allows for various distros to run inside o
 
 You'll find WSL offered as a feature addon in Windows 10. In order to get WSL up and running you first need to add the feature by going to **Control Panel** and opening **Windows Features**. Scroll down until you see **Windows Subsystem for Linux** and check the box. Hit **OK** to exit the feature options. _(Restart is required)_
 
-![Add WSL Feature from Features Add/Remove]({{site.baseurl}}/assets/img/wsl/wsl-setup-featuresadd.png)
+![Add WSL Feature from Features Add/Remove]({{site.url}}/img/wsl/wsl-setup-featuresadd.png)
 
 You also have the option to enable WSL with Powershell:  
 ```Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux```  
@@ -20,22 +20,22 @@ You also have the option to enable WSL with Powershell:
 ## Get a Distro
 Now that you have WSL installed (I hope you rebooted after enabling feature), you need to install a Linux distro. You can choose your favorite distro at the Microsoft Store.  Search for "Linux" in store app.
 
-![Linux Distros from Microsoft Store]({{site.baseurl}}/assets/img/wsl/wsl-setup-distros.png)  
+![Linux Distros from Microsoft Store]({{site.url}}/img/wsl/wsl-setup-distros.png)  
 <br/>
 It's as easy as selecting the one you want and hitting the **Get** button.  
-![Hit Get to install the Ubuntu distrobution from Microsoft Store]({{site.baseurl}}/assets/img/wsl/wsl-setup-ubuntu1804.png)  
+![Hit Get to install the Ubuntu distrobution from Microsoft Store]({{site.url}}/img/wsl/wsl-setup-ubuntu1804.png)  
 <br/>
 Hit the launch button to get the distro started.  
-![Launch Ubuntu distro]({{site.baseurl}}/assets/img/wsl/wsl-setup-launch.png)  
+![Launch Ubuntu distro]({{site.baseurl}}/img/wsl/wsl-setup-launch.png)  
 <br/>
 The distro will take some time to get setup.  
-![Installing distro]({{site.baseurl}}/assets/img/wsl/wsl-setup-start.png)  
+![Installing distro]({{site.baseurl}}/img/wsl/wsl-setup-start.png)  
 <br/>
 After the initial setup you'll be prompted for a login name and password (don't forget your password)  
-![Installing distro]({{site.baseurl}}/assets/img/wsl/wsl-setup-newuser.png)  
+![Installing distro]({{site.baseurl}}/img/wsl/wsl-setup-newuser.png)  
 <br/>
 There you go. You now have Ubuntu 18.04 running on Windows 10!  
-![Installing distro]({{site.baseurl}}/assets/img/wsl/wsl-setup-bash.png)  
+![Installing distro]({{site.baseurl}}/img/wsl/wsl-setup-bash.png)  
 <br/>
 ### When you want to access your distro you have many options: ###  
 1. Launch Ubuntu (distro you installed) from Start Menu
