@@ -7,7 +7,7 @@ date:   2020-02-11 20:39:39 -0600
 categories: [WSL]
 ---
 
-  WSL (Windows Subsystem for Linux), provides access to Linux from your Windows 10 system without having to run a virtual machine or dual boot. In a previous post I walked through [installing WSL](../how-to-setup-wsl-on-windows-10/). Now that we have WSL installed let's take a look at getting it setup and launching some Linux distros. 
+  WSL (Windows Subsystem for Linux), provides access to Linux from your Windows 10 system without having to run a virtual machine or dual boot. In a previous post I walked through [installing WSL](../2020-02/how-to-setup-wsl-on-windows-10/). Now that we have WSL installed let's take a look at getting it setup and launching some Linux distros. 
 <br/>
 <br/>
 <br/>
