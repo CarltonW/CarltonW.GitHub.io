@@ -15,7 +15,7 @@ categories: [WSL]
 
 The colors used for the WSL command prompt are hard to see and it's even worse if you launch WSL from Powershell.
 
-![WSL Bash Color]({{site.baseurl}}/assets/img/wsl/wsl-command-color.png "WSL Bash Color")  
+![WSL Bash Color]({{site.baseurl}}/img/wsl/wsl-command-color.png "WSL Bash Color")  
 
 To change the colors for the command prompt run wsl and edit the .bashrc file.  
 
@@ -41,7 +41,7 @@ After you save the file reload it so the changes take affect:
 
 This changes the prompt color to white. ([list of color codes](https://misc.flogisoft.com/bash/tip_colors_and_formatting))
 
-![WSL Bash New Color]({{site.baseurl}}/assets/img/wsl/wsl-command-newcolor.png "WSL Bash New Color")  
+![WSL Bash New Color]({{site.baseurl}}/img/wsl/wsl-command-newcolor.png "WSL Bash New Color")  
 <br/>
 <br/>
 <h2><b>WSL commands </b></h2>  
@@ -49,24 +49,24 @@ This changes the prompt color to white. ([list of color codes](https://misc.flog
 List Linux distros installed on WSL  
 ``` wslconfig /l ```   
 
-![WSLconfig distro list]({{site.baseurl}}/assets/img/wsl/wsl-command-distros.png "WSLconfig distro list")  
+![WSLconfig distro list]({{site.baseurl}}/img/wsl/wsl-command-distros.png "WSLconfig distro list")  
 <br/>
 Change default distro 
 ``` wslconfig /s SLES-15 ``` *(replace **SLES-15** with the distro you want to make default)*
 
-![WSLconfig distro change]({{site.baseurl}}/assets/img/wsl/wsl-command-change.png "WSLconfig distro change")  
+![WSLconfig distro change]({{site.baseurl}}/img/wsl/wsl-command-change.png "WSLconfig distro change")  
 <br/>
 You can also unregister an installed distro *(This will destroy data associated with distro)*  
 
 `` wslconfig /u SLES-15 `` 
 
-![WSLconfig distro unregister]({{site.baseurl}}/assets/img/wsl/wsl-command-unregister.png "WSLconfig distro unregister")  
+![WSLconfig distro unregister]({{site.baseurl}}/img/wsl/wsl-command-unregister.png "WSLconfig distro unregister")  
 <br/>
 You can launch specific distro by name  
 
 `` wsl -d SLES-15 `` **replace SLES-15 with distro you want to launch**  
 
-![WSL distro launch]({{site.baseurl}}/assets/img/wsl/wsl-command-launch.png "WSL distro launch")   
+![WSL distro launch]({{site.baseurl}}/img/wsl/wsl-command-launch.png "WSL distro launch")   
 
 <br/>
 <br/>
@@ -86,18 +86,18 @@ Run the following commands to update (Ubuntu 18.04):
 
 Get a list of bash commands without having to go into your Linux distro
 
-![WSL Bash help]({{site.baseurl}}/assets/img/wsl/wsl-bash-list.png "WSL Bash Help")   
+![WSL Bash help]({{site.baseurl}}/img/wsl/wsl-bash-list.png "WSL Bash Help")   
 
 
 Run multiple screens within your WSL distro with tmux  
 (checkout this great [tutorial for using tmux](http://bit.ly/2mnxAoJ))  
 
-![WSL Bash tmux]({{site.baseurl}}/assets/img/wsl/wsl-bash-tmux.png "WSL Bash tmux")  
+![WSL Bash tmux]({{site.baseurl}}/img/wsl/wsl-bash-tmux.png "WSL Bash tmux")  
 
 
 Run Windows executable apps from bash prompt  
 
-![WSL Bash Winapps]({{site.baseurl}}/assets/img/wsl/wsl-bash-exe.png "WSL Bash Winapps")  
+![WSL Bash Winapps]({{site.baseurl}}/img/wsl/wsl-bash-exe.png "WSL Bash Winapps")  
 <br/>
 <br/>
 Hopefully these setup tips will help some folks get familiar with WSL.  

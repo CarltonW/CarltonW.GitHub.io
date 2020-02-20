@@ -14,17 +14,17 @@ categories: [WSL, Docker]
 
 Let's head over to the Docker website to download the community edition for our Windows 10 machine. If you search "Docker CE for Windows" you should find the download link for this page [Docker for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)  
 
-![Install Docker on Windows 10]({{site.baseurl}}/assets/img/docker/docker-install-windows.png "Install Docker on Windows")  
+![Install Docker on Windows 10]({{site.baseurl}}/img/docker/docker-install-windows.png "Install Docker on Windows")  
 *(You'll need to create a Docker hub account to download)*  
 
 
 Install with the defaults (including the option to run Linux container.) Launch docker from the icon on your desktop. You'll be prompted about installing Hyper-V. Hit okay to allow it to install. That will add the Hyper-V feature and reboot your system.  
 
-![Prompt to enable Hyper-V]({{site.baseurl}}/assets/img/docker/docker-install-hyperv.png "Allow Hyper-V feature to install")  
+![Prompt to enable Hyper-V]({{site.baseurl}}/img/docker/docker-install-hyperv.png "Allow Hyper-V feature to install")  
 
 After you've installed Docker and enabled Hyper-V you need to set a feature in Docker to work with WSL. Find the Docker icon on the bottom right corner and right mouse-clike and choose Settings. Check the box next to "Expose Daemon" 
 
-![Enable port on Docker app]({{site.baseurl}}/assets/img/docker/docker-install-switch.png "Enable ports on Docker app")  
+![Enable port on Docker app]({{site.baseurl}}/img/docker/docker-install-switch.png "Enable ports on Docker app")  
 
 We now have Docker running on our Windows 10 machine.    
 
@@ -89,7 +89,7 @@ We need to edit .bashrc
 Add the following line to the bottom of the file and save it   
 ``` export DOCKER_HOST=tcp://localhost:2375 ```  
 
-![Add export to bashrc]({{site.baseurl}}/assets/img/docker/docker-install-bashrc.png "Add export to bashrc")  
+![Add export to bashrc]({{site.baseurl}}/img/docker/docker-install-bashrc.png "Add export to bashrc")  
 
 __Reload .bashrc:__  
 ``` source ~/.bashrc ```  

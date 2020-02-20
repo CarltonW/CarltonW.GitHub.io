@@ -37,7 +37,7 @@ cat /etc/centos-release
 
 <br/>
 **Here is a complete rundown on the commands:**  
-![Docker commmands to install CentOS on WSL]({{site.baseurl}}/assets/img/centos/centos-install.png "Docker commands to install CentOS on WSL")  
+![Docker commmands to install CentOS on WSL]({{site.baseurl}}/img/centos/centos-install.png "Docker commands to install CentOS on WSL")  
 <br/>
 <br/>
 
