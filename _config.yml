@@ -3,18 +3,18 @@
 # Site wide configuration
 ####################################
 #
-title: Jaken Herman
-email: JakenHerman7@Gmail.com
-description: Software Engineer, Brewer of Beer, Husband
+title: Carlton Whitmore
+email: cwhitmore88@gmail.com
+description: IT Manager, Father, Husband, Coach
 url:
-keywords: ["blog", "jaken", "herman", "software", "engineer"]
+keywords: ["blog", "carlton", "whitmore", "aws", "azure"]
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          America/Chicago
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,15 +33,15 @@ kramdown:
 ####################################
 #
 owner:
-  name: jaken herman
+  name: carlton whitmore
   avatar: avatar.jpg
-  job: "⚾ Front-End Developer for the Houston Astros ⚾"
-  bio: "husband | baseball fan | author"
-  email: jakenherman7@gmail.com
-  disqus-shortname: jakenherman-com
+  job: "IT Manager for non-profit"
+  bio: "husband | father | coach"
+  email: cwhitmore88@gmail.com
+  disqus-shortname: https-carltonw-github-io
   twitter: 0x6a6368h
-  amazon-author: amazon.com/author/jakenherman
-  facebook: #username
+  # amazon-author: amazon.com/author/jakenherman
+  # facebook: #username
   google:
     plus: #username
     analytics: UA-134666359-1
