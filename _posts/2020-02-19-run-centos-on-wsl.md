@@ -13,8 +13,8 @@ Microsoft provides WSL as a way to bridge the gap between the Windows and Linux 
 ### Prerequisites:    
 
 **Windows 10 Enterprise (build 1903 or newer)**  
-**WSL feature installed ([tutorial](../2020-02/how-to-setup-wsl-on-windows-10.md))**  
- **Docker setup for Windows and WSL ([tutorial](../2020-02/Docker-on-WSL.md))**  
+**WSL feature installed ([tutorial](../2020-02/how-to-setup-wsl-on-windows-10))**  
+ **Docker setup for Windows and WSL ([tutorial](../2020-02/Docker-on-WSL))**  
 <br/>
 >## Enter these commands to complete the CentOS install from WSL prompt:  
 
