@@ -14,6 +14,6 @@ AWS Config allows you to monitor changes to your AWS environment and record thos
 Have you ever enabled RDP or another service to allow temporary access and then forgot to remove the security rule? AWS Config is great at monitoring this type of activity.
 
 
-![To get started open the AWS Console and navigate to the Config.]({{site.url}}/img/AWSConfig/AWS-Console-Config.jpg)
+![To get started open the AWS Console and navigate to Config.]({{site.url}}/img/AWSConfig/AWS-Console-Config.JPG)
 
 
