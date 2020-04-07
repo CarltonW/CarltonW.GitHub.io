@@ -14,11 +14,11 @@ AWS Config allows you to monitor changes to your AWS environment and record thos
 
 In this post I will walk you through creating a Config rule that monitors public access to RDP. 
 
-From the AWS console open Config under Management & Governance.
+<center>From the AWS console open Config under Management & Governance.</center>
 ![AWS Console screen](/img/AWSConfig/aws-console-config.png)
 
 
-When you open Config for the first time you'll see this screen.
+<center>When you open Config for the first time you'll see this screen.</center>
 ![AWS Config dashboard](/img/AWSConfig/aws-console-config-getstarted.png)
 
 
