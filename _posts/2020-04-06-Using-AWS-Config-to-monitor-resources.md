@@ -18,7 +18,8 @@ From the AWS console open Config under Management & Governance.
 ![AWS Console screen](/img/AWSConfig/aws-console-config.png)
 
 
-When you open 
+When you open Config for the first time you'll see this screen.
+![AWS Config dashboard](/img/AWSConfig/aws-console-config-getstarted.png)
 
 
 
