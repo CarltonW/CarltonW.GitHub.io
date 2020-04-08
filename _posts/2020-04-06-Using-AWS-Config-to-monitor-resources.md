@@ -15,24 +15,24 @@ AWS Config allows you to monitor changes to your AWS environment and record thos
 > ## Steps to get AWS Config working ##
 
 <center>From the AWS console open Config under Management & Governance</center>
-![AWS Console screen](/img/AWSConfig/aws-console-config.png)
+![AWS Console screen](/img/AWSConfig/aws-console-config.png "AWS Console screen")
 
 
 <br>
 <center>When you open Config for the first time you'll see this screen</center>
-![AWS Config dashboard](/img/AWSConfig/aws-console-config-getstarted.png)
+![AWS Config dashboard](/img/AWSConfig/aws-console-config-getstarted.png "AWS Config dashboard")
 
 
 <br>
 <center>The settings page opens when you setup your Config rule. You can change these settings or leave the defaults.</center>
-![AWS Config settings](/img/AWSConfig/aws-console-config-settings.png)
+![AWS Config settings](/img/AWSConfig/aws-console-config-settings.png "AWS Config settings")
 
 
 <br>
 <center>The next step is to pick one of the preconfigured rules or create your own</center>
-![AWS Config settings](/img/AWSConfig/aws-console-config-rules.png)
+![AWS Config settings](/img/AWSConfig/aws-console-config-rules.png "AWS Config settings")
 
 
 <br>
 <center>We'll go with one of the preconfigured rules. Search for restricted-common-ports</center>
-![AWS Config settings](/img/AWSConfig/aws-console-config-searchcommonports.png)
+![AWS Config settings](/img/AWSConfig/aws-console-config-searchcommonports.png "AWS Config settings")
