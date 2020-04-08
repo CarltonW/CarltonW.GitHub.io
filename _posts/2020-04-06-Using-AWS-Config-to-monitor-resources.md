@@ -18,14 +18,14 @@ AWS Config allows you to monitor changes to your AWS environment and record thos
 ![AWS Console screen](/img/AWSConfig/aws-console-config.png)
 
 
-
+<br>
 <center>When you open Config for the first time you'll see this screen</center>
 ![AWS Config dashboard](/img/AWSConfig/aws-console-config-getstarted.png)
 
 
 
-
-<center>The settings page opens when you setup your Config rule</center>
+<br>
+<center>The settings page opens when you setup your Config rule. You can change these settings or leave the defaults.</center>
 ![AWS Config settings](/img/AWSConfig/aws-console-config-settings.png)
 
 
