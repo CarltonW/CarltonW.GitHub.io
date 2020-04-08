@@ -16,11 +16,16 @@ AWS Config allows you to monitor changes to your AWS environment and record thos
 
 <center>From the AWS console open Config under Management & Governance</center>
 ![AWS Console screen](/img/AWSConfig/aws-console-config.png "AWS Console screen")
-<p>
+
+
+<br>
+<center>From the AWS console open Config under Management & Governance</center>
 <kbd>
-  <img src="/img/AWSConfig/aws-console-config.png" align="left">
+  <img src="/img/AWSConfig/aws-console-config.png">
 </kbd>
-</p>
+
+
+<br>
 <center>From the AWS console open Config under Management & Governance</center>
 ![AWS Console screen](/img/AWSConfig/aws-console-config.png "AWS Console screen")
 
