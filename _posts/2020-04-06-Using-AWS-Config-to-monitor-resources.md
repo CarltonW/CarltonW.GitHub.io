@@ -10,7 +10,7 @@ image:
 feature: sample-image-2.jpg
 ---
 
-AWS Config allows you to monitor changes to your AWS environment and record those changes to an S3 bucket. You can also use AWS Config for remediation when something is out of compliance. Have you ever enabled RDP or another service to allow temporary access and then forgot to remove the security rule? AWS Config is great at monitoring this type of activity. In this post I will walk you through creating a Config rule that monitors public access to RDP.
+AWS Config allows you to monitor changes to your AWS environment and record those changes to an S3 bucket. You can also use AWS Config for remediation when something is out of compliance. Have you ever enabled RDP or another service to allow temporary access and then forgot to remove the security rule? AWS Config is a great tool for monitoring this type of activity. In this post I will walk you through creating a Config rule that monitors public access to RDP.
 
 > ## AWS Config setup ##
 
