@@ -34,5 +34,5 @@ AWS Config allows you to monitor changes to your AWS environment and record thos
 
 
 <br>
-<center>We'll go with one of the preconfigured rules. Search for restricted-common-ports</center>
+<center>We'll go with one of the preconfigured rules. Search for *restricted-common-ports*</center>
 ![AWS Config settings](/img/AWSConfig/aws-console-config-searchcommonports.png "AWS Config settings")
