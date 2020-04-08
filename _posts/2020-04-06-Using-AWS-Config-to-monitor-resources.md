@@ -25,8 +25,7 @@ AWS Config allows you to monitor changes to your AWS environment and record thos
 
 <br>
 <center>The settings page opens when you setup your Config rule. You can change these settings or leave the defaults.</center>
-![AWS Config settings](/img/AWSConfig/aws-console-config-settings.png =616x391)
-<img src="/img/AWSConfig/aws-console-config-settings.png" width="616" alt="AWS Config settings"/>
+![AWS Config settings](/img/AWSConfig/aws-console-config-settings-small.png)(/img/AWSConfig/aws-console-config-settings.png)
 
 
 <br>
