@@ -47,3 +47,16 @@ AWS Config allows you to monitor changes to your AWS environment and record thos
 <br>
 <center>Here is the bottom half of the screen. Remediation has a dropdown which allows for many tasks. </center>
 [ ![AWS Config rule setup](/img/AWSConfig/aws-console-config-modifyrule2-small.png "AWS Config rule setup") ](/img/AWSConfig/aws-console-config-modifyrule2.png "AWS Config rule setup")<center><i>Click on image to see larger version</i></center>
+
+
+<br>
+<center>After you save the rule you can wait for it to evaluate or manually force it by hitting the re-evaluate button.</center>
+[ ![AWS Config rule re-evaluate](/img/AWSConfig/aws-console-config-rules-reevaluate-small.png "AWS Config rule re-evaluate") ](/img/AWSConfig/aws-console-config-rules-reevaluate.png "AWS Config rule re-evaluate")<center><i>Click on image to see larger version</i></center>
+
+
+<br>
+<center>Once your rule is evaluated you can go back to the Config Dashboard and see the status and open the resource from here to make necessary changes to get back into compliance.</center>
+[ ![AWS Config Dashboard view of rule status](/img/AWSConfig/aws-console-config-dashboardfinished-small.png "AWS Config Dashboard view of rule status") ](/img/AWSConfig/aws-console-config-dashboardfinished.png "AWS Config Dashboard view of rule status")<center><i>Click on image to see larger version</i></center>
+
+<br>
+That's it. You just created an AWS Config rule that will evaluate whether RDP has been opened on any security group in that region. To enable this rule in other regions you'll have to follow the same steps for each region.
