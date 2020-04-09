@@ -15,7 +15,7 @@ AWS Config allows you to monitor changes to your AWS environment and record thos
 
 > ## AWS Config setup ##
 
-<center>From the AWS console open Config under Management & Governance</center>
+<center>Choose your region then open Config under Management & Governance</center>
 ![AWS Console screen](/img/AWSConfig/aws-console-config.png "AWS Console screen")
 
 
@@ -31,9 +31,12 @@ AWS Config allows you to monitor changes to your AWS environment and record thos
 
 <br>
 <center>The next step is to pick one of the preconfigured rules or create your own</center>
-![AWS Config settings](/img/AWSConfig/aws-console-config-rules.png "AWS Config settings")
+![AWS Config rules](/img/AWSConfig/aws-console-config-rules.png "AWS Config rules")
 
 
 <br>
 <center>We'll go with one of the preconfigured rules. Search for <i>restricted-common-ports</i></center>
-![AWS Config settings](/img/AWSConfig/aws-console-config-searchcommonports.png "AWS Config settings")
+![AWS Config rules](/img/AWSConfig/aws-console-config-searchcommonports.png "AWS Config rules")
+
+
+<br>
