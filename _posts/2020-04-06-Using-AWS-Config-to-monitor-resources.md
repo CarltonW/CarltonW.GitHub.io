@@ -40,7 +40,7 @@ AWS Config allows you to monitor changes to your AWS environment and record thos
 
 
 <br>
-<center>Once you choose the <i>restricted-common-ports</i> rule you'll be giving the option to change settings within that rule as listed below. In this demo I'm only changing a few fields. I also removed some of the other ports that are monitored by default.</center>
+<center>Once you choose the <i>restricted-common-ports</i> rule you'll be giving the option to change settings within that rule as listed below. In this demo I'm only changing a few fields.<br> I also removed some of the other ports that are monitored by default.</center>
 [ ![AWS Config rule setup](/img/AWSConfig/aws-console-config-rulesetup1-small.png "AWS Config rule setup") ](/img/AWSConfig/aws-console-config-rulesetup1.png "AWS Config rule setup")<center><i>Click on image to see larger version</i></center>
 
 
