@@ -53,8 +53,7 @@ categories: [WSL, Windows10]
 ![Fresh install of Windows 10 dev environment](/img/quicklaunch/VMStarted.png "Fresh install of Windows 10 dev environment")
 
 <br>
-<center>You'll notice the dev environment is installed with Powershell 5.1 by default. If you want to install Powershell 7 you can</center>
-<center>[download it from here](https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7)</center>
+<center>You'll notice the dev environment is installed with Powershell 5.1 by default. If you want to install Powershell 7 you can</center>[download it from here](https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7)
 ![Powershell 5 after install](/img/quicklaunch/Powershell6.png "Powershell 5 is installed by default")
 
 <br>
