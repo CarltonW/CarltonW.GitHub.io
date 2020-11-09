@@ -21,10 +21,13 @@ If you need to build a Windows 10 test environment with Powershell 7, Visual Stu
 
 <br>
 <center>Once you choose to create virtual machine the very large install file is downloaded</center>
-<br> *This is a very large image. Good time for a break.*
+<center>*This is a very large image. Good time for a break.*</center>
 ![Download starts for Windows 10](/img/quicklaunch/Download.png "Downloading Windows 10 dev")
 
 <br>
 <center>After the image is downloaded it will extract automatically</center>
 ![Image is extracted](/img/quicklaunch/ExtractingImage.png "Extracting Image")
 
+<br>
+<center>Finally, after an hour my virtual machine is created. From here you can edit the settings or Connect. We're going to edit the settings first.</center>
+![Virtual Machine Created](/img/quicklaunch/VMCreated.png "Virtual Machine has been created")
