@@ -15,10 +15,13 @@ categories: [WSL, Windows10]
 - **Windows 10 build 1909 or newer**
 - **Hyper-V feature installed**
 
+<br>
+<br>
 ## Open Hyper-V and Create Windows 10 dev Virtual Machine ##
 
 
-
+<br>
+<br>
 <center>Open Hyper-V and right mouse click your computer to choose Quick Create</center>
 ![Quick Create from Hyper-V Console](/img/quicklaunch/QuickCreateButton.png "Quick Create Button")
 
