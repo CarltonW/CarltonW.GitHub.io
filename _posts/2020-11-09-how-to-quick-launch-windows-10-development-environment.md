@@ -26,7 +26,7 @@ categories: [WSL, Windows10]
 
 <br>
 <center>Once you choose to create virtual machine the very large install image is downloaded (17+ Gb)<br>
-*This will take a while.* *Good time for a break.*</center>
+<i>This will take a while. Good time for a break.</i></center>
 ![Download starts for Windows 10](/img/quicklaunch/Download.png "Downloading Windows 10 dev")
 
 <br>
@@ -34,7 +34,7 @@ categories: [WSL, Windows10]
 ![Image is extracted](/img/quicklaunch/ExtractingImage.png "Extracting Image")
 
 <br>
-<center>Finally, after an hour my virtual machine is created. From here you can edit the settings or Connect. We're going to edit the settings first.</center>
+<center>Finally, my virtual machine is created. From here you can edit the settings or Connect. We're going to edit the settings first.</center>
 ![Virtual Machine Created](/img/quicklaunch/VMCreated.png "Virtual Machine has been created")
 
 <br>
