@@ -7,7 +7,7 @@ date:   2020-11-09 09:39:39 -0600
 categories: [WSL, Windows10]
 ---
 
-<h6>If you need to build a Windows 10 test environment with Powershell 7, Visual Studio Code and Visual Studio 2019 then you're in the right place. In the steps below I will walk you through building a test environment on your existing PC/laptop using Hyper-V. (Requires Windows 10 build 1909 or newer)</h6>
+<h5>If you need to build a Windows 10 test environment with Powershell 7, Visual Studio Code and Visual Studio 2019 then you're in the right place. In the steps below I will walk you through building a test environment on your existing PC/laptop using Hyper-V. (Requires Windows 10 build 1909 or newer)</h5>
 
 > ## Open Hyper-V and Choose Quick Create ##
 
