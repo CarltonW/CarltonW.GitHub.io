@@ -35,4 +35,11 @@ If you need to build a Windows 10 test environment with Powershell 7, Visual Stu
 <br>
 <center>Make your custom changes to the memory, CPU, etc. and save your settings.</center>
 ![Virtual Machine Settings](/img/quicklaunch/EditSettingsVM.png "Edit Settings for Virtual Machine")
- 
+
+<br>
+<center>Ready to start Windows 10 dev Virtual Machine.</center>
+![Virtual Machine Start](/img/quicklaunch/StartVM.png "Edit Settings for Virtual Machine")
+
+<br>
+<center>Your new Windows 10 environment. Now we can start to customize it.</center>
+![Fresh install of Windows 10 dev environment](/img/quicklaunch/VMSStarted.png "Fresh install of Windows 10 dev environment")
