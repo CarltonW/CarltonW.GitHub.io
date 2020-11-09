@@ -57,6 +57,6 @@ categories: [WSL, Windows10]
 ![Powershell 5 after install](/img/quicklaunch/Powershell6.png "Powershell 5 is installed by default")
 
 <br>
-<center>Another useful tool I like is Windows Terminal. Can you run scripts from Powershell, Command Prompt, WSL distros and Azure Cloud Shell.</center>
-![Windows Terminal](img/quicklaunch/WindowsTerminal.png "Windows Terminal") 
+<center>Another useful tool I like is Windows Terminal. You can you run scripts from Powershell, Command Prompt, WSL distros and Azure Cloud Shell.</center>
+![Windows Terminal](/img/quicklaunch/WindowsTerminal.png "Windows Terminal") 
 
