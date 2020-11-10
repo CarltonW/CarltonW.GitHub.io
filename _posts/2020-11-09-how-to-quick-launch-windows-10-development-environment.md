@@ -83,8 +83,7 @@ You'll notice the dev environment is installed with Powershell 5.1 by default. I
 
 <br>
 <br>
->### You need to enable nested virtualization in order to launch Ubuntu. 
->### Shutdown the VM and run this powershell command from the physical Windows 10 device (not from the VM)
+>### You need to enable nested virtualization in order to launch Ubuntu. Shutdown the VM and run this powershell command from the physical Windows 10 device(not from the VM)
 ```
 Set-VMProcessor -VMName "Windows 10 dev environment" -ExposeVirtualizationExtensions $true
 ```
@@ -95,12 +94,12 @@ Set-VMProcessor -VMName "Windows 10 dev environment" -ExposeVirtualizationExtens
 
 <br>
 <br>
-You now have a Windows 10 dev environment with WSL2, Windows Terminal, Visual Studio Code and Visual Studio 2019. I hope this article was helpful. If you see something that you would like to add please post your comments below.
+You now have a Windows 10 dev environment with WSL2, Powershell 7, Windows Terminal, Visual Studio Code and Visual Studio 2019. I hope this article was helpful. If you see something that you would like to add please post your comments below.
 
 <br>
 <br>
-References:
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
-https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7
-https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization
+>__References:__
+[https://docs.microsoft.com/en-us/windows/wsl/install-win10]([https://docs.microsoft.com/en-us/windows/wsl/install-win10])
+[https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7]([https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7])
+[https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization)
 
