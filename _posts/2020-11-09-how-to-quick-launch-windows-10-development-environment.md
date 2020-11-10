@@ -63,7 +63,7 @@ __If you need to build a Windows 10 test environment with Powershell 7, Windows 
 
 <br>
 <br>
-<center>You'll notice the dev environment is installed with Powershell 5.1 by default. If you want to install Powershell 7 you can [download it from here](https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7)</center>
+<center>You'll notice the dev environment is installed with Powershell 5.1 by default. If you want to install Powershell 7 you can download it from (https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7)</center>
 ![Powershell 5 after install](/img/quicklaunch/Powershell6-50percent.png "Powershell 5 is installed by default")
 
 <br>
