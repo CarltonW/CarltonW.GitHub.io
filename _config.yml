@@ -7,7 +7,7 @@ title: Carlton Whitmore
 email: cwhitmore88@gmail.com
 description: Husband, Father, Tech guy, Runner
 url:
-keywords: ["blog", "carlton", "whitmore", "aws", "azure"]
+keywords: ["blog", "carlton", "whitmore", "aws", "azure", "WSL", "WSL2"]
 
 #
 ###################################
@@ -46,8 +46,7 @@ owner:
     plus: #username
     analytics: UA-147639042-1
     # google_site_verification: sIujgX6GvM_IJHu_2yr7iNP-2qGwbWk_ST107zMgJ4U
-    google_site_verification: sIujgX6GvM_IJHu_2yr7iNP-2qGwbWk_ST107zMgJ4U
-    verify: sIujgX6GvM_IJHu_2yr7iNP-2qGwbWk_ST107zMgJ4U
+    verify: 
     ad-client:
     ad-slot:
   bing-verify:
