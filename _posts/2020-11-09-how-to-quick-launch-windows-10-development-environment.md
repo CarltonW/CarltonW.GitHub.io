@@ -68,6 +68,6 @@ You'll notice the dev environment is installed with Powershell 5.1 by default. I
 
 <br>
 <br>
-<center>Another useful tool I like is Windows Terminal. You can you run scripts from Powershell, Command Prompt, WSL distros and Azure Cloud Shell.</center>
+<center>A useful tool that's included in this image is Windows Terminal. You can you run scripts from Powershell, Command Prompt, WSL distros and Azure Cloud Shell.</center>
 ![Windows Terminal](/img/quicklaunch/WindowsTerminal.png "Windows Terminal") 
 
