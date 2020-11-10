@@ -7,7 +7,7 @@ date:   2020-11-09 09:39:39 -0600
 categories: [WSL, Windows10]
 ---
  
-### If you need to build a Windows 10 test environment with Powershell 7, Visual Studio Code and Visual Studio 2019 then you're in the right place. In the steps below I will walk you through building a test environment on your existing PC/laptop using Hyper-V. ###
+__If you need to build a Windows 10 test environment with Powershell 7, Visual Studio Code and Visual Studio 2019 then you're in the right place. In the steps below I will walk you through building a test environment on your existing PC/laptop using Hyper-V.__
 
 <br>
 #### Prerequisites ####
@@ -63,12 +63,12 @@ categories: [WSL, Windows10]
 
 <br>
 <br>
-You'll notice the dev environment is installed with Powershell 5.1 by default. If you want to install Powershell 7 you can [download it from here](https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7)
+<center>You'll notice the dev environment is installed with Powershell 5.1 by default. If you want to install Powershell 7 you can [download it from here](https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7)</center>
 ![Powershell 5 after install](/img/quicklaunch/Powershell6-50percent.png "Powershell 5 is installed by default")
 
 <br>
 <br>
-<center>A useful tool that's included in this image is Windows Terminal. You can you run scripts from Powershell, Command Prompt, WSL distros and Azure Cloud Shell.</center>
+<center>A useful tool that's included in this image is Windows Terminal. You can run scripts from Powershell, Command Prompt, WSL distros and Azure Cloud Shell.</center>
 ![Windows Terminal](/img/quicklaunch/WindowsTerminal-50percent.png "Windows Terminal") 
 
 <br>
@@ -99,7 +99,7 @@ You now have a Windows 10 dev environment with WSL2, Powershell 7, Windows Termi
 <br>
 <br>
 >__References:__
-[https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-[https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7](https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7)
+[https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)<br>
+[https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7](https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7)<br>
 [https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization)
 
