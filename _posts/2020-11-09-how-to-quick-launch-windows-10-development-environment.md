@@ -12,7 +12,7 @@ categories: [WSL, Windows10]
 <br>
 #### Prerequisites ####
 
-- **Windows 10 build 1909 or newer**
+- **Windows 10 build 2004 or newer**
 - **Hyper-V feature installed**
 
 <br>
@@ -70,4 +70,37 @@ You'll notice the dev environment is installed with Powershell 5.1 by default. I
 <br>
 <center>A useful tool that's included in this image is Windows Terminal. You can you run scripts from Powershell, Command Prompt, WSL distros and Azure Cloud Shell.</center>
 ![Windows Terminal](/img/quicklaunch/WindowsTerminal.png "Windows Terminal") 
+
+<br>
+<br>
+<center>Let's test out WSL. From the Start menu launch Ubuntu. Unfortunately, this does not work out of the box.</center>
+![Launch Ubuntu WSL](/img/quicklaunch/LaunchUbuntu.png "Launch Ubuntu WSL")
+
+<br>
+<br>
+<center>As you can see the subsystem for linux and virtualization are already enabled.</center>
+![Subsystem and virtualization enabled](/img/quicklaunch/WSLEnabled.png "Subsystem and virtualization already enabled")
+
+<br>
+<br>
+>### You need to enable nested virtualization in order to launch Ubuntu. 
+>### Shutdown the VM and run this powershell command from the physical Windows 10 device (not from the VM)
+```
+Set-VMProcessor -VMName "Windows 10 dev environment" -ExposeVirtualizationExtensions $true
+```
+<br>
+<br>
+<center>Now you can power up the virtual machine and launch Ubuntu. You're all set!</center>
+![Ubuntu now works](/img/quicklaunch/UbuntuWorks.png "Ubuntu now works")
+
+<br>
+<br>
+You now have a Windows 10 dev environment with WSL2, Windows Terminal, Visual Studio Code and Visual Studio 2019. I hope this article was helpful. If you see something that you would like to add please post your comments below.
+
+<br>
+<br>
+References:
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+https://docs.microsoft.com/en-us/powershell/scripting/install/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7
+https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization
 
