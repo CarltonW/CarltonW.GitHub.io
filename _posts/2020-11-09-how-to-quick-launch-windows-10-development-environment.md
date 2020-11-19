@@ -2,6 +2,7 @@
 layout: post
 title:  "How to Quick Launch Windows 10 Development Environment"
 excerpt: "This tutorial will walk you through getting Windows 10 setup with tools like Powershell 7, Windows Terminal, Visual Studio Code, Visual Studio 2019 and WSL2"
+tags: [quick,visual studio,windows terminal,development,setup,windows 10,hyper-v]
 comments : true
 date:   2020-11-09 09:39:39 -0600
 categories: [WSL, Windows10]
