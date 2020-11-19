@@ -2,6 +2,7 @@
 layout: post
 title: "How to setup WSL on Windows 10"
 excerpt: "This guide will walk you through setting up Windows Subsystem for Linux."
+tags: [setup,WSL,Windows 10]
 comments : true
 date: 2020-02-08 19:32:20 +0300
 categories: [WSL]

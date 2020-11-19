@@ -2,6 +2,7 @@
 layout: post
 title:  "Working with WSL on Windows 10"
 excerpt: "Learn how to navigate WSL (Windows Subsystem for Linux) and make some tweaks"
+tags: [WSL,Windows 10]
 comments : true
 date:   2020-02-11 20:39:39 -0600
 categories: [WSL]

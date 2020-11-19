@@ -2,6 +2,7 @@
 layout: post
 title:  "How to run CentOS 7 on WSL"
 excerpt: "Find out how to get CentOS running on WSL"
+tags: [Linux,WSL,Centos]
 comments : true
 date:   2020-02-19 20:39:39 -0600
 categories: [Linux, WSL]

@@ -3,7 +3,7 @@ layout: post
 title: Using AWS Config to monitor open RDP port
 excerpt: "How to use AWS Config to monitor your resources"
 modified: 2020-04-06
-tags: [Howto]
+tags: [Howto,AWS,monitor,Config,RDP]
 comments: true
 pinned: true
 image:
