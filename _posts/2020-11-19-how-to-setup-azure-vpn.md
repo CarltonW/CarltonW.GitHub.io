@@ -32,15 +32,15 @@ If you're just getting started using Azure one of the first things you might be 
 ![Find Virtual Network Gateway in Azure](/img/azurevpn/001-CreateVirtualNetworkGateway.png "Azure Portal find Virtual Network Gateway")
 <br>
 <br>
-<center>Hit **create** to get the Virtual Network Gateway settings page.</center>
+<center>Hit <b>create</b> to get the Virtual Network Gateway settings page.</center>
 ![Create Virtual Network Gateway in Azure](/img/azurevpn/1-CreateVirtualNetworkGateway.png "Azure Portal create Virtual Network Gateway")
 <br>
 <br>
-<center>Here is the settings page for the Virtual Network Gateway. All of the settings with a red asterisk are required. We will create a Virtual Network and Public IP from this settings page. Please make note that even though I changed the SKU to **Basic** it reverted back to the default of **VpnGw1**. After you've made all changes to the settings make sure you set the SKU type back to Basic (or whatever SKU you decide on), before proceeding. You can go with the defaults I have below or change them to something else. Go ahead and choose **Create virtual network**</center>
+<center>Here is the settings page for the Virtual Network Gateway. All of the settings with a red asterisk are required. We will create a Virtual Network and Public IP from this settings page. Please make note that even though I changed the SKU to <b>Basic</b> it reverted back to the default of <b>VpnGw1</b>. After you've made all changes to the settings make sure you set the SKU type back to Basic (or whatever SKU you decide on), before proceeding. You can go with the defaults I have below or change them to something else. Go ahead and choose <b>Create virtual network</b></center>
 ![Virtual Network Gateway Settings in Azure](/img/azurevpn/2-VirtualNetworkGatewayPart1.png "Azure Portal Virtual Network Gateway settings")
 <br>
 <br>
-<center>After you've set the required fields choose to Create a Virtual Network. Give it a name and enter a network and subnet or you can go with the defaults.</center>
+<center>After you've set the required fields choose to Create a Virtual Network. Give it a name and enter a network and subnet or you can go with the defaults and hit <b>Ok</b>.</center>
 ![Create the Virtual Network in Azure](/img/azurevpn/3-CreateVirtualNetwork.png "Azure Portal create Virtual Network")
 <br>
 <br>
