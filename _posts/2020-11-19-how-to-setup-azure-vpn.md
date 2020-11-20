@@ -36,9 +36,48 @@ In this post I will walk through setting up an Azure VPN with an on-premises net
 <br>
 <br>
 ![Confirm Virtual Network Gateway settings in Azure](/img/azurevpn/5-VNetGatewayConfirm.png "Azure Portal Confirm Virtual Network Gateway settings")
-
-
-
+<br>
+<br>
+![Virtual Network Created in Azure](/img/azurevpn/6-VNetCreated.png "Azure Portal Virtual Network Created")
+<br>
+<br>
+![Add local network gateway in Azure](/img/azurevpn/9-AddLocalNetworkGateway.png "Azure Portal add local network gateway")
+<br>
+<br>
+![Choose local Network gateway in Azure](/img/azurevpn/10-ChooseLocalNetworkGateway.png "Azure Portal choose local network gateway")
+<br>
+<br>
+![Create local network gateway in Azure](/img/azurevpn/11-CreateLocalNetworkGateway.png "Azure Portal create local network gateway")
+<br>
+<br>
+![Enter subnet for Local network in Azure](/img/azurevpn/12-LocalNeworkGateway.png "Azure Portal setup local subnet for on-prem network")
+<br>
+<br>
+![Add Connection in Azure](/img/azurevpn/13-AddConnection.png "Azure Portal add Connection")
+<br>
+<br>
+![Create connection between on-prem and Azure](/img/azurevpn/14-CreateConnection.png "Azure Portal create connection between on-prem and vnet")
+<br>
+<br>
+![Settings for Connection in Azure](/img/azurevpn/15-ConnectionSave.png "Azure Portal settings for Connection before saving")
+<br>
+<br>
+![Verify connection settings in Azure](/img/azurevpn/16-VerifyConnectionSettings.png "Azure Portal verify connection settings")
+<br>
+<br>
+![VPN resources are now created in Azure](/img/azurevpn/17-ConnectionCreatedAllResources.png "Azure Portal all resources required for VPN")
+<br>
+<br>
+![Download configuration for local router setup in Azure](/img/azurevpn/18-DownloadConfig.png "Azure Portal download config file for local network")
+<br>
+<br>
+![Verify device type before download in Azure](/img/azurevpn/19-ChooseRouterType.png "Azure Portal verify device type before download")
+<br>
+<br>
+![Complete settings for on-prem network device in notepad](/img/azurevpn/20-ConfigSettings.png "settings necessary for on-prem network device setup")
+<br>
+<br>
+![VPN is now connected to Virtual Network Created in Azure](/img/azurevpn/21-VPNConnected.png "Azure Portal Virtual Network Created")
 
 <br>
 <br>
