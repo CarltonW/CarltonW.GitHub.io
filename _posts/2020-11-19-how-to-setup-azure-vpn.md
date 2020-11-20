@@ -17,6 +17,7 @@ In this post I will walk through setting up an Azure VPN with an on-premises net
 >- **On-premises endpoint** 
 >- **On-premises public IP**
 >- **On-premises private subnet**
+
 <br>
 <br>
 ![Find Virtual Network Gateway in Azure](/img/azurevpn/001-CreateVirtualNetworkGateway.png "Azure Portal find Virtual Network Gateway")
