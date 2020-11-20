@@ -18,20 +18,21 @@ If you're just getting started using Azure one of the first things you might be 
  **Docker setup for Windows and WSL ([tutorial](../2020-02/Docker-on-WSL))**  
 <br/>
 
->### On-Premises Requirements
->
->**On-premises endpoint** 
->**On-premises public IP**
->**On-premises private subnet**
+### On-Premises Requirements:
 
+**On-premises endpoint** 
+**On-premises public IP**
+ **On-premises private subnet**
+<br/>
 
->### Resources required in Azure to setup a Site-to-Site VPN
->
->**Virtual Network Gateway**
->**Virtual Network**
->**Local Network Gateway**
->**Public IP address**
->**Connection**
+### Resources required in Azure to setup a Site-to-Site VPN
+
+**Virtual Network Gateway**
+**Virtual Network**
+**Local Network Gateway**
+**Public IP address**
+ **Connection**
+<br/>
 
 <br>
 <br>
