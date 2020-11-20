@@ -11,6 +11,12 @@ categories: [Azure]
 
 If you're just getting started using Azure one of the first things you might be asked to do is create a site-to-site vpn connection between your on-premises network and Azure. In this post I will walk through setting up an Azure VPN with an on-premises network. Before we get started there are some requirements for your on-premises environment.
 
+### Prerequisites:    
+
+**Windows 10 Enterprise (build 1903 or newer)**  
+**WSL feature installed ([tutorial](../2020-02/how-to-setup-wsl-on-windows-10))**  
+ **Docker setup for Windows and WSL ([tutorial](../2020-02/Docker-on-WSL))**  
+<br/>
 
 >### On-Premises Requirements
 >
