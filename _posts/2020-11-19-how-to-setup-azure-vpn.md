@@ -11,20 +11,20 @@ categories: [Azure]
 If you're just getting started using Azure one of the first things you might be asked to do is create a site-to-site vpn connection between your on-premises network and Azure. In this post I will walk through setting up an Azure VPN with an on-premises network. Before we get started there are some requirements for your on-premises environment.
 
 
-### On-Premises Requirements
+>### On-Premises Requirements
+>
+>**On-premises endpoint** 
+>**On-premises public IP**
+>**On-premises private subnet**
 
-**On-premises endpoint** 
-**On-premises public IP**
-**On-premises private subnet**
 
-
-### Resources required in Azure to setup a Site-to-Site VPN
-
-**Virtual Network Gateway**
-**Virtual Network**
-**Local Network Gateway**
-**Public IP address**
-**Connection**
+>### Resources required in Azure to setup a Site-to-Site VPN
+>
+>**Virtual Network Gateway**
+>**Virtual Network**
+>**Local Network Gateway**
+>**Public IP address**
+>**Connection**
 
 <br>
 <br>
