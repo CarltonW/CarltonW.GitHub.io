@@ -13,18 +13,18 @@ If you're just getting started using Azure one of the first things you might be 
 
 >### On-Premises Requirements:
 
-**On-premises endpoint**  
-**On-premises public IP**  
-**On-premises private subnet**  
+-**On-premises endpoint**  
+-**On-premises public IP**  
+-**On-premises private subnet**  
 <br/>
 
 >### Resources required in Azure to setup a Site-to-Site VPN:
 
-**Virtual Network Gateway**  
-**Virtual Network**  
-**Local Network Gateway**  
-**Public IP address**  
-**Connection**  
+-**Virtual Network Gateway**  
+-**Virtual Network**  
+-**Local Network Gateway**  
+-**Public IP address**  
+-**Connection**  
 <br/>
 <br/>
 
