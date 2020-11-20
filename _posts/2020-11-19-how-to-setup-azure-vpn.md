@@ -38,7 +38,7 @@ In this post I will walk through setting up an Azure VPN with an on-premises net
 ![Confirm Virtual Network Gateway settings in Azure](/img/azurevpn/5-VNetGatewayConfirm.png "Azure Portal Confirm Virtual Network Gateway settings")
 <br>
 <br>
-![Virtual Network Created in Azure](/img/azurevpn/6-VNetCreated.png "Azure Portal Virtual Network Created")
+![Virtual Network Created in Azure](/img/azurevpn/6-VnetCreated.png "Azure Portal Virtual Network Created")
 <br>
 <br>
 ![Add local network gateway in Azure](/img/azurevpn/9-AddLocalNetworkGateway.png "Azure Portal add local network gateway")
@@ -50,7 +50,7 @@ In this post I will walk through setting up an Azure VPN with an on-premises net
 ![Create local network gateway in Azure](/img/azurevpn/11-CreateLocalNetworkGateway.png "Azure Portal create local network gateway")
 <br>
 <br>
-![Enter subnet for Local network in Azure](/img/azurevpn/12-LocalNeworkGateway.png "Azure Portal setup local subnet for on-prem network")
+![Enter subnet for Local network in Azure](/img/azurevpn/12-LocalNetworkGateway.png "Azure Portal setup local subnet for on-prem network")
 <br>
 <br>
 ![Add Connection in Azure](/img/azurevpn/13-AddConnection.png "Azure Portal add Connection")
