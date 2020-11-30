@@ -96,7 +96,7 @@ If you're just getting started using Azure one of the first things you might be 
 ![Download configuration for local router setup in Azure](/img/azurevpn/18-DownloadConfig.png "Azure Portal download config file for local network")
 <br>
 <br>
-<center>Change the device type the the one you have on-prem. If it's not listed choose Generic.</center>
+<center>Change the device type to the one you have on-prem. If it's not listed choose Generic and then hit the <b>Download Configuration</b> button.</center>
 ![Verify device type before download in Azure](/img/azurevpn/19-ChooseRouterType.png "Azure Portal verify device type before download")
 <br>
 <br>
