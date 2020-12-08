@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "How to use SSL Wildcard Certificate from IIS on Tomcat"
+title: "How to export SSL Wildcard Certificate from IIS and import to Tomcat"
 excerpt: "This is how I was able to export my IIS wildcard certificate and use it on Tomcat."
-tags: [howto,tomcat,wildcard,certificate,export,import]
+tags: [howto,IIS,export,tomcat,wildcard,certificate,import]
 comments : true
 date: 2020-02-08 19:32:20 +0300
 categories: [Tomcat]
