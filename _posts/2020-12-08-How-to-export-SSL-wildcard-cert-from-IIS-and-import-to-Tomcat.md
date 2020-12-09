@@ -14,12 +14,12 @@ If you've exported your IIS certificate to use on another Windows server no big 
 >### Exporting the SSL Certificate from IIS <i>(you can skip these steps if you've already created the .pfx)</i>
 >
 >First we need to export the SSL Cert from IIS into pfx format<br>
->Open the search window or open powershell and type in "mmc" and <return><br>
->From the Microsoft Management Console (MMC), click File then Add/Remove Snap-in<br>
->Choose Certificates and click Add<br>
->Choose "Computer Account" then Next<br>
->Leave Computer as "Local computer" and choose Finish<br>
->Now hit OK
+>Open the search window or open powershell and type in <b>mmc</b> and hit <b>enter</b><br>
+>From the <b>Microsoft Management Console (MMC)</b>, click <b>File</b> then <b>Add/Remove Snap-in</b><br>
+>Choose <b>Certificates</b> and click <b>Add</b><br>
+>Choose <b>Computer Account</b> then <b>Next</b><br>
+>Leave Computer as <b>Local computer</b> and choose <b>Finish</b><br>
+>Now hit <b>OK</b>
 >
 >Now that we have the console setup for viewing certificates let's open the cert we need to export.<br>
 >Under our Certificates (Local Computer) open Personal then Certificates<br>
