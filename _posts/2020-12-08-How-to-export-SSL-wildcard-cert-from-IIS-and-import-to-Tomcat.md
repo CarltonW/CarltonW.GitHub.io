@@ -8,7 +8,7 @@ date: 2020-12-08 19:32:20 +0300
 categories: [Tomcat]
 ---
 
-If you've exported your IIS certificate to use on another Windows server no big deal, right? Have you ever tried to use that same exported wildcard certification on a Tomcat server? In this post I will try to piece together the steps I used to get my exported certificate working on Tomcat. 
+##### If you've exported your IIS certificate to use on another Windows server no big deal, right? Have you ever tried to use that same exported wildcard certification on a Tomcat server? In this post I will try to piece together the steps I used to get my exported certificate working on Tomcat. 
 
 
 >### Exporting the SSL Certificate from IIS _(you can skip these steps if you've already created the .pfx)_
@@ -36,8 +36,19 @@ If you've exported your IIS certificate to use on another Windows server no big 
 >Next<br>
 >Specify a filename for the exported key and leave the format .pfx<br>
 ><b>Save</b><br>
-><b>Next>/b><br>
+><b>Next></b><br>
 ><b>Finish</b><br>
 
-#### You just completed the hardest part. Now all we have to do is include the new key in one of Tomcat's xml files.
+##### You've just completed the hardest part. Now all we have to do is include the new key in one of Tomcat's xml files. From here we'll need to copy the newly created pfx file to the server where we have tomcat running then modify the server.xml file under the tomcat folder.
+
+>### Using new pfx certificate with Tomcat
+>
+>Copy newly created pfx key to a place we have access to on the Tomcat server, but isn't publicly accessible.<br>
+>example: c:\mycerts\myexportedcert.pfx<br>
+>Find the server.xml file for your webserver. _(Mine is located under c:\Program Files\Apache Software Foundation\Tomcat9\conf)_<br>
+>Make copy of Server.xml before you edit the original _(just in case!)_<br>
+
+
+
+
 
