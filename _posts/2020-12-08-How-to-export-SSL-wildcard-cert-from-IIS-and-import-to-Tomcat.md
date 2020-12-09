@@ -21,7 +21,7 @@ If you've exported your IIS certificate to use on another Windows server no big 
 >Leave Computer as <b>Local computer</b> and choose <b>Finish</b><br>
 >Now hit <b>OK</b>
 >
->Now that we have the console setup for viewing certificates let's open the cert we need to export.<br>
+>#### Now that we have the console setup for viewing certificates let's open the cert we need to export.<br>
 >Under our Certificates (Local Computer) open Personal then Certificates<br>
 >Find the wildcard ssl certificate you want to export and Right mouse-click it<br>
 >Choose All Tasks then Export...<br>
@@ -39,5 +39,5 @@ If you've exported your IIS certificate to use on another Windows server no big 
 >Next<br>
 >Finish<br>
 
-You just completed the hardest part. Now all we have to do is include the new key in one of Tomcat's xml files.
+#### You just completed the hardest part. Now all we have to do is include the new key in one of Tomcat's xml files.
 
