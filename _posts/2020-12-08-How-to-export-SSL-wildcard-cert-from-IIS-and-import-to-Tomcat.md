@@ -78,7 +78,7 @@ categories: [Tomcat]
 >
 >Now you can replace the pfx file with your new jks in the Connector section of the Server.xml file:<br>
 >```
-<Connector port="443" protocol="HTTP/1.1" SSLEnabled="true"  
+><Connector port="443" protocol="HTTP/1.1" SSLEnabled="true"  
 >maxThreads="150" scheme="https" secure="true"  
 >clientAuth="false" sslProtocol="TLS"  
 >keystoreFile="c:\mycerts\yourcertname.jks"  
