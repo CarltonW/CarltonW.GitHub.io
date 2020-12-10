@@ -43,7 +43,7 @@ categories: [Tomcat]
 
 >### Using new pfx certificate with Tomcat
 >
->Copy newly created pfx key to a place we have access to on the Tomcat server, but isn't publicly accessible.<br>
+>Copy newly created pfx key to a place we have access on the Tomcat server, but isn't publicly accessible.<br>
 >example: _c:\mycerts\myexportedcert.pfx_<br>
 >Find the server.xml file for your webserver. _(Mine is located under c:\Program Files\Apache Software Foundation\Tomcat9\conf)_<br>
 >Make a copy of Server.xml before you edit the original _(just in case!)_<br>
