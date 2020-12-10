@@ -89,6 +89,8 @@ keystoreType="PKCS12"
 keystorePass="your_password" />
 ```
 
+
+
 #### In this post we exported the existing wildcard SSL certification, copied it over to our Tomcat server and used it in our Server.xml config file. We also went through the steps to convert our pfx to a jks in the event your config does not allow pfx format.
 
 Good luck and let me know if this helped.
