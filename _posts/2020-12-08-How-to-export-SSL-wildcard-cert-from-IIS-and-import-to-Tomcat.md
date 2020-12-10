@@ -51,14 +51,14 @@ categories: [Tomcat]
 >Look for the section that looks like this:<br>
 ```<Connector  port="8080" protocol="HTTP/1.1"<br>
                connectionTimeout="20000"<br>
-               redirectPort="8443" /> ```<br>
+               redirectPort="8443" /> <br> '''
 Change it to look like this:<br>
 '''<Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true"<br>
     maxThreads="150" scheme="https" secure="true"<br>
     clientAuth="false" sslProtocol="TLS"<br>
     keystoreFile="c:\mycerts\yourcertname.pfx"<br>
     keystoreType="PKCS12"<br>
-    keystorePass="your_PKCS12_password" /><br>
+    keystorePass="your_PKCS12_password" /><br> '''
 
 
 
