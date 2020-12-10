@@ -49,18 +49,18 @@ categories: [Tomcat]
 >Make a copy of Server.xml before you edit the original _(just in case!)_<br>
 >Open Server.xml in notepad or another editing program<br>
 >Look for the section that looks like this:<br>
-```<Connector  port="8080" protocol="HTTP/1.1"    
-    connectionTimeout="20000"    
-    redirectPort="8443" />
+```<Connector  port="8080" protocol="HTTP/1.1"  
+connectionTimeout="20000"  
+redirectPort="8443" />
     ```
 <br>    
 Change it to look like this:<br>
-```<Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true"    
-    maxThreads="150" scheme="https" secure="true"    
-    clientAuth="false" sslProtocol="TLS"    
-    keystoreFile="c:\mycerts\yourcertname.pfx"    
-    keystoreType="PKCS12"    
-    keystorePass="your_password" />
+```<Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true"  
+maxThreads="150" scheme="https" secure="true"  
+clientAuth="false" sslProtocol="TLS"  
+keystoreFile="c:\mycerts\yourcertname.pfx"  
+keystoreType="PKCS12"  
+keystorePass="your_password" />
     ```
 
 
