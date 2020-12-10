@@ -74,6 +74,7 @@ categories: [Tomcat]
 >"c:\program files\java\jre\bin\keytool.exe" -importkeystore -srckeystore c:\mycerts\yourcertname.pfx -destkeystore c:\mycerts\newkeyname.jks
 >```
 >
+>
 >You'll be prompted for a new keystore password for the jks file.<br>
 >After you've entered the new keystore password you'll be required to enter the password for the existing pfx file _(hope you remembered it!)_
 >
