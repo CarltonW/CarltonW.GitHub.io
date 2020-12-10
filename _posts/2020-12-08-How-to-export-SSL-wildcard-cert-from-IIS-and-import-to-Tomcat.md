@@ -48,26 +48,24 @@ categories: [Tomcat]
 >Find the server.xml file for your webserver. _(Mine is located under c:\Program Files\Apache Software Foundation\Tomcat9\conf)_<br>
 >Make a copy of Server.xml before you edit the original _(just in case!)_<br>
 >Open Server.xml in notepad or another editing program<br>
-<br>
-Look for the section that looks like this:<br>
-  ```xml
-<Connector  port="8080" protocol="HTTP/1.1"
-connectionTimeout="20000" redirectPort="8443" />
-```
-    
-<br>    
-Change it to look like this:<br>
- ```xml
- <Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true"  
- maxThreads="150" scheme="https" secure="true"  
- clientAuth="false" sslProtocol="TLS"  
- keystoreFile="c:\mycerts\yourcertname.pfx"  
- keystoreType="PKCS12"  
- keystorePass="your_password" />
- ```
-    
-
-
+><br>
+>Look for the section that looks like this:<br>
+>```
+><Connector  port="8080" protocol="HTTP/1.1"
+>connectionTimeout="20000" redirectPort="8443" />
+>```
+>    
+><br>    
+>Change it to look like this:<br>
+>```
+><Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true"  
+>maxThreads="150" scheme="https" secure="true"  
+>clientAuth="false" sslProtocol="TLS"  
+>keystoreFile="c:\mycerts\yourcertname.pfx"  
+>keystoreType="PKCS12"  
+>keystorePass="your_password" />
+>```
+ 
 
 
 
