@@ -64,19 +64,19 @@ categories: [Tomcat]
 >keystorePass="your_password" />
 >```
 
->#### If you have a requirement to use a jks key you can convert the pfx key_(optional)_
+>#### If you have a requirement to use a jks key you can convert the pfx key _(optional)_
 >
->In order to convert the exported pfx key to jks format we need to use the java keytool command.
+>In order to convert the exported pfx key to jks format we need to use the java keytool command.<br>
+>Locate keytool.exe _(mine was located in c:\program files\Java\jre\bin)_ <br>
 >
->Locate keytool.exe _(mine was located in c:\program files\Java\jre\bin)_
->Run the following command:
+>Run the following command:<br>
 >```
 >"c:\program files\java\jre\bin\keytool.exe" -importkeystore -srckeystore c:\mycerts\yourcertname.pfx -destkeystore c:\mycerts\newkeyname.jks
 >```
 >You'll be prompted for a new keystore password for the jks file
 >After you've entered the new keystore password you'll be required to enter the password for the existing pfx file _(hope you remembered it!)_
 >
->Now you can replace the pfx file with your new jks in the Connector section of the Server.xml file.
+>Now you can replace the pfx file with your new jks in the Connector section of the Server.xml file:<br>
 >```
 <Connector port="443" protocol="HTTP/1.1" SSLEnabled="true"  
 >maxThreads="150" scheme="https" secure="true"  
