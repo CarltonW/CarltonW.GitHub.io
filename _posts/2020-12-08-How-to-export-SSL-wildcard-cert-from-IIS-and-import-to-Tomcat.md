@@ -59,7 +59,7 @@ Change it to look like this:<br>
     clientAuth="false" sslProtocol="TLS"    
     keystoreFile="c:\mycerts\yourcertname.pfx"    
     keystoreType="PKCS12"    
-    keystorePass="your_PKCS12_password" />```
+    keystorePass="your_password" />```
 
 
 
