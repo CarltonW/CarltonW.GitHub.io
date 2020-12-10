@@ -3,6 +3,7 @@ layout: post
 title: How to setup Azure VPN
 excerpt: "How to setup Azure VPN back to your on-premises environment"
 modified: 2020-11-19
+date: 2020-11-09 20:39:39 -0600
 tags: [Howto,Azure,VPN,gateway]
 pinned: true
 comments: true
