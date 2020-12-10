@@ -33,10 +33,10 @@ categories: [Tomcat]
 ><b>Next</b><br>
 >The Security screen allows you to specify the password for the key.<br>
 >Choose the <b>Password checkbox</b> and type in a password and confirm _(make sure you don't forget this password. You'll need it later)_<br>
->Next<br>
+><b>Next</b><br>
 >Specify a filename for the exported key and leave the format .pfx<br>
 ><b>Save</b><br>
-><b>Next></b><br>
+><b>Next</b><br>
 ><b>Finish</b><br>
 
 ##### You've just completed the hardest part. Now all we have to do is include the new key in one of Tomcat's xml files. From here we'll need to copy the newly created pfx file to the server where we have tomcat running then modify the server.xml file under the tomcat folder.
@@ -74,7 +74,7 @@ categories: [Tomcat]
 >"c:\program files\java\jre\bin\keytool.exe" -importkeystore -srckeystore c:\mycerts\yourcertname.pfx -destkeystore c:\mycerts\newkeyname.jks
 >```
 >
->You'll be prompted for a new keystore password for the jks file
+>You'll be prompted for a new keystore password for the jks file.<br>
 >After you've entered the new keystore password you'll be required to enter the password for the existing pfx file _(hope you remembered it!)_
 >
 >Now you can replace the pfx file with your new jks in the Connector section of the Server.xml file:<br>
