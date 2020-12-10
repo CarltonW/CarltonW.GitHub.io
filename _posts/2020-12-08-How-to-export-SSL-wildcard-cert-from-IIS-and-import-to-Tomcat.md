@@ -63,6 +63,10 @@ categories: [Tomcat]
 >keystoreType="PKCS12"  
 >keystorePass="your_password" />
 >```
+
+>#### If you have a requirement to use a jks key instead you can convert the pfx.
+>
+>
  
 
 
