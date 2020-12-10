@@ -48,6 +48,7 @@ categories: [Tomcat]
 >Find the server.xml file for your webserver. _(Mine is located under c:\Program Files\Apache Software Foundation\Tomcat9\conf)_<br>
 >Make a copy of Server.xml before you edit the original _(just in case!)_<br>
 >Open Server.xml in notepad or another editing program<br>
+<br>
 >Look for the section that looks like this:<br>
 ```<Connector  port="8080" protocol="HTTP/1.1"  
 connectionTimeout="20000"  
