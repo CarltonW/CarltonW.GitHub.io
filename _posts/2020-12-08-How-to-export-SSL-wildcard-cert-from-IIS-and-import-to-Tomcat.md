@@ -44,9 +44,16 @@ categories: [Tomcat]
 >### Using new pfx certificate with Tomcat
 >
 >Copy newly created pfx key to a place we have access to on the Tomcat server, but isn't publicly accessible.<br>
->example: c:\mycerts\myexportedcert.pfx<br>
+>example: _c:\mycerts\myexportedcert.pfx_<br>
 >Find the server.xml file for your webserver. _(Mine is located under c:\Program Files\Apache Software Foundation\Tomcat9\conf)_<br>
->Make copy of Server.xml before you edit the original _(just in case!)_<br>
+>Make a copy of Server.xml before you edit the original _(just in case!)_<br>
+>Open Server.xml in notepad or another editing program<br>
+>Look for the section that looks like this:<br>
+```<Connector executor="tomcatThreadPool"
+               port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" /> ```
+               
 
 
 
