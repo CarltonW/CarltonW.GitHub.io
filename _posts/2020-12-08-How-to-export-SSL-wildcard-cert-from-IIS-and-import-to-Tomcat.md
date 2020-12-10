@@ -48,13 +48,14 @@ categories: [Tomcat]
 >Find the server.xml file for your webserver. _(Mine is located under c:\Program Files\Apache Software Foundation\Tomcat9\conf)_<br>
 >Make a copy of Server.xml before you edit the original _(just in case!)_<br>
 >Open Server.xml in notepad or another editing program<br>
-><br>
-Look for the section that looks like this:<br>
+<br>
+Look for the section that looks like this:
 ```
 <Connector  port="8080" protocol="HTTP/1.1"
 connectionTimeout="20000" />
 ```
-Change it to look like this:<br>
+<br>
+Change it to look like this:
 ```
 <Connector port="443" protocol="HTTP/1.1" SSLEnabled="true"  
 maxThreads="150" scheme="https" secure="true"  
@@ -69,14 +70,15 @@ keystorePass="your_password" />
 >In order to convert the exported pfx key to jks format we need to use the java keytool command.<br>
 >Locate keytool.exe _(mine was located in c:\program files\Java\jre\bin)_ <br>
 >
-Run the following command:<br>
+<br>
+Run the following command:
 ```
 "c:\program files\java\jre\bin\keytool.exe" -importkeystore -srckeystore c:\mycerts\yourcertname.pfx -destkeystore c:\mycerts\newkeyname.jks
 ```
 <br>
 >You'll be prompted for a new keystore password for the jks file.<br>
 >After you've entered the new keystore password you'll be required to enter the password for the existing pfx file _(hope you remembered it!)_
-
+<br>
 Now you can replace the pfx file with your new jks in the Connector section of the Server.xml file:<br>
 ```
 <Connector port="443" protocol="HTTP/1.1" SSLEnabled="true"  
