@@ -51,7 +51,8 @@ categories: [Tomcat]
 >Look for the section that looks like this:<br>
 ```<Connector  port="8080" protocol="HTTP/1.1"    
     connectionTimeout="20000"    
-    redirectPort="8443" />```
+    redirectPort="8443" />
+    ```
 <br>    
 Change it to look like this:<br>
 ```<Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true"    
@@ -59,7 +60,8 @@ Change it to look like this:<br>
     clientAuth="false" sslProtocol="TLS"    
     keystoreFile="c:\mycerts\yourcertname.pfx"    
     keystoreType="PKCS12"    
-    keystorePass="your_password" />```
+    keystorePass="your_password" />
+    ```
 
 
 
